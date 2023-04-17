@@ -1,0 +1,21 @@
+{
+    "name": "node-red-authentication",
+    "region": "nyc",
+    "services": [
+      {
+        "name": "node-red",
+        "runtime": "nodejs",
+        "github": {
+          "repo": "<your-github-username>/<your-repo-name>",
+          "branch": "main"
+        },
+        "routes": [
+          {
+            "path": "/",
+            "port": 8080
+          }
+        ]
+      }
+    ]
+  }
+  
